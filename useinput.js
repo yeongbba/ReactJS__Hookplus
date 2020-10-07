@@ -1,4 +1,7 @@
-export const useInput = (initialValue, validator) => {
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+
+const useInput = (initialValue, validator) => {
   const [value, setValue] = useState(initialValue);
   const onChange = (event) => {
     const {
@@ -14,3 +17,24 @@ export const useInput = (initialValue, validator) => {
   };
   return { value, onChange };
 };
+
+const App = () => {
+  const maxLen = (value) => {
+    return value.length < 10;
+  };
+  const name = useInput("Mr.", maxLen);
+  return (
+    <>
+      <div>hello</div>
+      <input placeholder="Name" {...name} />
+    </>
+  );
+};
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  rootElement
+);
