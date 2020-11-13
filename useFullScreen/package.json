@@ -1,0 +1,21 @@
+{
+  "name": "@hookplus/use-full-screen",
+  "version": "1.0.0",
+  "description": "React Hook to make any element go Fullscreen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeongbba/react-hooks/tree/master"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "useeffect",
+    "usestate"
+  ],
+  "author": "yeongbba",
+  "license": "MIT"
+}

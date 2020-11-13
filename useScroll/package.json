@@ -1,0 +1,21 @@
+{
+  "name": "@hookplus/use-scroll",
+  "version": "1.0.0",
+  "description": "React Hook to get X/Y coordinates of current position of the scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeongbba/react-hooks/tree/master"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "useeffect",
+    "usestate"
+  ],
+  "author": "yeongbba",
+  "license": "MIT"
+}
